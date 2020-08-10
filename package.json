@@ -1,0 +1,48 @@
+{
+  "name": "myApp",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "start": "react-native start",
+    "postinstall": "jetifier -r",
+    "test": "jest",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "@react-navigation/native": "^5.7.2",
+    "@react-navigation/stack": "^5.8.0",
+    "axios": "^0.18.0",
+    "idx": "^2.5.5",
+    "prop-types": "^15.7.2",
+    "react": "16.13.1",
+    "react-mixin": "^5.0.0",
+    "react-native": "^0.63.2",
+    "react-native-gesture-handler": "^1.4.1",
+    "react-native-loading-spinner-overlay": "^1.0.1",
+    "react-native-redux-toast": "^1.0.3",
+    "react-native-screens": "^2.9.0",
+    "react-navigation": "^3.3.2",
+    "react-navigation-redux-helpers": "^2.0.9",
+    "react-redux": "^6.0.1",
+    "react-timer-mixin": "^0.13.4",
+    "redux": "^4.0.1",
+    "redux-actions": "^2.6.5",
+    "redux-persist": "^5.10.0",
+    "redux-thunk": "^2.3.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.11.0",
+    "@babel/runtime": "^7.11.0",
+    "@react-native-community/eslint-config": "^2.0.0",
+    "babel-jest": "^26.2.2",
+    "eslint": "^7.6.0",
+    "jest": "^26.2.2",
+    "metro-react-native-babel-preset": "^0.61.0",
+    "react-test-renderer": "16.13.1"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
